@@ -3,7 +3,7 @@ import "source-map-support/register";
 
 if (typeof _babelPolyfill === "undefined") {
   // Include babel polyfill
-  require("babel/polyfill");
+  require("babel-polyfill");
 }
 
 // Babel does not expose a proper main entry in its package.json. It seems that
